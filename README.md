@@ -2,8 +2,8 @@
                               
 This report is all about autonomous robots that can solve simple problems like line following , maze solving etc. I am using 5 ir sensor array which are pid tuned to follow line. Late algorithms like left hand rule(for non looping maze) and flood fill or Dijkstra’s (for looping) are being applied for maze solving.
 Materials used:-
-1.)5 ir sensors (or array)\n
-2.)2 motors\n
+1.)5 ir sensors (or array)
+2.)2 motors
 3.)L298n motor driver
 4.)Optical encoders
 Line following:-
@@ -13,12 +13,12 @@ https://drive.google.com/open?id=13HVMbEWZWij5F5munRUTgB-mRIS1p54w
 
 Non-looping maze solver:-
 The bot is allowed to traverse the maze using left hand rule. The whole path is recorded in an array and then the shortest path is found out by optimizing the array of path by substitutions like:-
-LBR=B
-RBL=B
-SBS=B
-LBS=R
-SBL=R
-LBL=S
+1.)LBR=B
+2.)RBL=B
+3.)SBS=B
+4.)LBS=R
+5.)SBL=R
+6.)LBL=S
 Working video:-
 https://drive.google.com/open?id=1qiwLSot62w9NewPzBtvALf4EIzPNIMNy
 
