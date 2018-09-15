@@ -2,8 +2,8 @@
                               
 This report is all about autonomous robots that can solve simple problems like line following , maze solving etc. I am using 5 ir sensor array which are pid tuned to follow line. Late algorithms like left hand rule(for non looping maze) and flood fill or Dijkstra’s (for looping) are being applied for maze solving.
 Materials used:-
-1.)5 ir sensors (or array)
-2.)2 motors
+1.)5 ir sensors (or array)\n
+2.)2 motors\n
 3.)L298n motor driver
 4.)Optical encoders
 Line following:-
